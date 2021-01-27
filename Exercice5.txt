@@ -1,0 +1,13 @@
+algorithme posneg
+variable k : entier
+Debut
+     Afficher("entrer un nombre")
+     saisir(k)
+        si k=0 alors
+           afficher("le nombre",k,"est nul")
+         sinon si k>0 alors
+           afficher("le nombre",k,"est positif")
+         sinon 
+           afficher("le nombre",k"est négatif")
+     finsi
+Fin 

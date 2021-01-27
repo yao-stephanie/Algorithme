@@ -1,0 +1,11 @@
+Algorithme ranger
+variable b,c,d : caractère
+Debut
+     Afficher("entrer trois noms de votre choix")
+     Saisir(b,c,d)
+     si (b<c et c<d) alors
+     afficher("les noms sont rangés alphabétiquement")
+     sinon
+     Afficher("les noms ne sont pas rangés alphabétiquement")
+     finsi
+Fin

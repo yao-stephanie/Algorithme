@@ -1,0 +1,18 @@
+Algorithme catégorie
+variable A:entier
+Debut
+     Afficher("entrer age que vous voulez")
+     Saisir(A)
+     si(A>=6 et A<=7) alors
+     Afficher("poussin")
+     sinon si(A>=8 et a<=9) alors
+     Afficher("pupille")
+     sinon si (A>=10 et A<=11) alors
+     Afficher("minime") 
+     sinon si(A>=12) alors
+     Afficher("cadet")
+     sinon
+     Afficher("erreur)
+     finsi
+Fin
+

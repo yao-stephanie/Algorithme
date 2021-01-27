@@ -1,0 +1,13 @@
+Algorithme prod
+variable n,m:entier
+Debut
+     afficher("entrer le premier nombre")
+     saisir(n)
+     afficher("entrer le deuxième nombre")
+     saisir(m)
+         si(n>0 et m > 0 ou n <0 et m<0) alors
+            afficher("le nombre est",positif)
+        sinon
+        afficher("le nombre est",négatif)
+     finsi
+Fin

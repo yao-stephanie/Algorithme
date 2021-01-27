@@ -1,0 +1,22 @@
+Algorithme triangle
+variable XA,XB,XC,YA,YB,YC,a,b,c : reel
+Debut
+     afficher("entrer les coordonnes du point",A)
+     saisir(XA,YA)
+     afficher("entrer les coordonnes du point",B)
+     saisir(XB,YB)
+     afficher("entrer les coordonnes du point",C)
+     saisir(XC,YC)
+        a==(XA-XB)^2 + (YA-YB)^2
+        b==(XA-XC)^2 + (YA-YC)^2
+        c==(XC-XB)^2 + (YC-YB)^2
+           si (a = b + c)
+               afficher("le triangle est rectangle en",A)
+                    sinon si(b = a + c)
+                       afficher("le triangle est rectangle en",B)
+                    sinon si(c = a + b)
+                       afficher("le triangle est rectangle en",C)
+                    sinon
+                       afficher("le triangle est pas rectangle")
+            finsi
+Fin

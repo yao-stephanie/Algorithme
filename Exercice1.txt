@@ -1,0 +1,11 @@
+algorithme difference
+variable n : entier
+Debut
+     Afficher("entrer un nombre")
+     saisir(n)
+     si n>0 alors
+     afficher("le nombre",n,"est positif")
+     sinon 
+     afficher("le nombre",n"est négatif")
+     finsi
+Fin 
